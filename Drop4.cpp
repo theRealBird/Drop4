@@ -6,7 +6,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-bool win=false;         //Represents if someone has one the game or not
+bool win=false;         //Represents if someone has won the game or not
 
 // A Player class for name customisation and programming comfort
 
