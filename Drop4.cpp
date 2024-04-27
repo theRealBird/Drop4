@@ -61,7 +61,7 @@ class Column {
 
 class Matrix{
     public:
-    deque<deque<char>> x;       //Array of an array (but using deques for convenience)
+    deque<deque<char> > x;       //Array of an array (but using deques for convenience)
     
 
     void Push(deque <char> y){

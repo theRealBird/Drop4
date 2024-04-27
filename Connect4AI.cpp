@@ -15,7 +15,7 @@ int AlphaBeta(const BitBoard &P, int alpha, int beta) {
           return (BitBoard::WIDTH*BitBoard::HEIGHT+1 - P.NumberofMoves())/2;
       }
       
-  } // check if current player can win next move
+  } // check if current player can win nexxxxxt move
     
 
   int maxx = (BitBoard::WIDTH*BitBoard::HEIGHT-1 - P.NumberofMoves())/2;	// upper bound of our score as we cannot win immediately
@@ -180,7 +180,7 @@ class BitBoard{
 
 
 
-vector <vector<int>> Solution (vector<vector<int>> Board){
+vector <vector<int> > Solution (vector<vector<int> > Board){
 
     BitBoard x;
     
