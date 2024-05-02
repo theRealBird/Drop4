@@ -18,7 +18,7 @@ int AlphaBeta(const BitBoard &P, int alpha, int beta) {
   } // check if current player can win next move
     
 
-  int maxx = (BitBoard::WIDTH*BitBoard::HEIGHT-1 - P.NumberofMoves())/5;	// upper bound of our score as we cannot win immediately
+  int maxx = (BitBoard::WIDTH*BitBoard::HEIGHT-1 - P.NumberofMoves())/2;	// upper bound of our score as we cannot win immediately
   if(beta > maxx) {
     beta = maxx;                     // there is no need to keep beta above our max possible score.
     if(alpha >= beta) return beta;  // prune the exploration if the [alpha;beta] window is empty.
