@@ -11,7 +11,7 @@ int testFunc (int a){
     int y = 9;
     int z = 0;
 
-    int x = max(y,11,z);
+    int x = max(y,12,z);
     
     return a;
 }
