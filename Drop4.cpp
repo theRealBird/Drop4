@@ -18,11 +18,12 @@ class Player{
     public:
     Player(){name="";symbol='_';}
 
-   void setPlayer(){
-        cout<<"Welcome to Drop 4! How should I call you?"<<endl;cout<<"(Enter your name please):"<<endl;
+    void setPlayer(){
+        cout<<"Welcome to Connect 4! How should I call you?"<<endl;cout<<"(Please enter your name):"<<endl;
         cin>>name;
-        cout<<endl<<endl<<"Okay "<<name<<" Time to assign you your symbol..."<<endl<<endl;
+        cout<<endl<<endl<<"Alright, "<<name<<" Let's set your symbol..."<<endl<<endl;
     }
+
     
     void setSymbol(char p){
         symbol=p;}
